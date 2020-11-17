@@ -4,12 +4,14 @@
 	<meta charset="utf-8">
 	<title>M&K Soluções em Tecnologia</title>
 	 <link rel="shortcut icon" href="img-src/icon.png">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,800|Material+Icons">
+		<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 	<header>
-		<a href="principal.html">
+		<a href="index.html">
 		<img src="img-src/logo.png" class="logo">
 		<div>
 			<p class="nome-topo">MARIANA & KAUAN</p>
@@ -20,61 +22,92 @@
 	<center>
 		<div class="topo">
 			<img src="img-src/M_K.JPG">
-			<div>
-				<h1>MARIANA & KAUAN</h1>
-				<br><br><br>
-				<h3>Web devs</h3>
-				<h3>Programadores</h3>
-				<h3>Freelancers</h3>
-				<h3>Técnicos em Informática</h3>
+			<div class="card" style="width: 18rem;">
+  		<div class="card-header">
+    	MARIANA & KAUAN
+  		</div>
+  			<li class="list-group-item">Web devs</li>
+				<li class="list-group-item">Técnicos em Informática</li>
+				<ul class="list-group list-group-flush">
+				<li class="list-group-item">Freelancers</li>
+    		<li class="list-group-item">Programadores</li>
+  			</ul>
 			</div>
+
 		</div>
 		<div class="projetos">
-			<h1>Projetos</h1>
-			<div class="projeto">
-				<a href="unificacao-italica-e-alema.html">
-				<img src="img/img1.jpg" class="imagemprojetos">
-				<p>Mapa mental sobre a Unificação Itálica e Alemã</p>	
-				</a>
-			</div>
-			<div class="projeto">
-				<a href="banco-de-dados-lp.html">
-				<img src="img/img2.png" class="imagemprojetos">
-				<p>Banco de Dados implementado em Java</p>	
-				</a>
-			</div>
-			<div class="projeto">
-				<a href="mariana-atv1.html">
-				<img src="img/img3.png" class="imagemprojetos">
-				<p>Primeiro site</p>
-				</a>
-			</div>
-			<div class="projeto">
-				<a href="engenharia-de-requisitos.html">
-				<img src="img/img4.png" class="imagemprojetos">
-				<p>Trabalho acadêmico sobre engenharia de requisitos</p>
-				</a>
-			</div>
-			<div class="projeto">
-				<a href="calculadora-js.html">
-				<img src="img/img5.png" class="imagemprojetos">
-				<p>Página contendo uma calculadora implementada em JavaScript</p>	
-				</a>
-			</div>
-			<div class="projeto">
-				<a href="site-mariana-kauan.html">
-				<img src="img/img6.png" class="imagemprojetos">
-				<p>Modelo de site de notícias de tecnologia</p>	
-				</a>
-			</div>
-			<div class="projeto">
-				<a href="jogo-da-velha.html">
+			<div class="card">
+  		<div class="card-header">
+    	M&K DEVS
+  		</div>
+  		<div class="card-body">
+    	<h5 class="card-title">PROJETOS</h5>
+    	<p class="card-text">ABAIXO OS PROJETOS DESENVOLVIDOS POR M&K</p>
+  	</div>
+	</div>
+		</div>
+			<div class="projetos" style="width: 60rem;">
 				<img src="img/img7.png" class="imagemprojetos">
-				<p>Jogo da velha</p>	
-				</a>
+				<div class="card-body">
+					<h5 class="card-title">JOGO DA VELHA</h5>
+					<p class="card-text">Este é o principal projeto do site. O Jogo da Velha</p>
+					<a href="jogo-da-velha.html" class="btn btn-outline-primary">ABRIR PROJETO</a>
+				</div>
+			</div>
+			<div class="projetos" style="width: 60rem;">
+				<img src="img/img1.jpg" class="imagemprojetos">
+			  <div class="card-body">
+			    <h5 class="card-title">MAPA</h5>
+			    <p class="card-text">Mapa mental sobre a Unificação Itálica e Alemã</p>
+			    <a href="unificacao-italica-e-alema.html" class="btn btn-outline-primary">ABRIR PROJETO</a>
+			  </div>
+			</div>
+			<div class="projetos" style="width: 60rem;">
+				<img src="img/img2.png" class="imagemprojetos">
+			  <div class="card-body">
+			    <h5 class="card-title">B.D. em JavaScript</h5>
+			    <p class="card-text">Banco de Dados implementado em Java</p>
+			    <a href="banco-de-dados-lp.html" class="btn btn-outline-primary">ABRIR PROJETO</a>
+			  </div>
+			</div>
+			<div class="projetos" style="width: 60rem;">
+				<img src="img/img3.png" class="imagemprojetos">
+			  	<div class="card-body">
+			    <h5 class="card-title">Primeiro Site Desenvolvido em Web 1</h5>
+			    <p class="card-text">Primeiro site</p>
+			    <a href="mariana-atv1.html" class="btn btn-outline-primary">ABRIR PROJETO</a>
+			  	</div>
+				</div>
+				<div class="projetos" style="width: 60rem;">
+					<img src="img/img6.png" class="imagemprojetos">
+					<div class="card-body">
+						<h5 class="card-title">M&K News</h5>
+						<p class="card-text">Modelo de site de notícias de tecnologia</p>
+						<a href="site-mariana-kauan.html" class="btn btn-outline-primary">ABRIR PROJETO</a>
+					</div>
+				</div>
+
+					<div class="projetos" style="width: 60rem;">
+						<img src="img/img4.png" class="imagemprojetos">
+						<div class="card-body">
+							<h5 class="card-title">Trabalho E.R.</h5>
+							<p class="card-text">Trabalho acadêmico sobre engenharia de requisitos</p>
+							<ahref="engenharia-de-requisitos.html" class="btn btn-outline-primary">ABRIR PROJETO</a>
+						</div>
+					</div>
+						<div class="projetos" style="width: 60rem;">
+							<img src="img/img5.png" class="imagemprojetos">
+							<div class="card-body">
+								<h5 class="card-title">Calculadora JavaScript</h5>
+								<p class="card-text">Página contendo uma calculadora implementada em JavaScript</p>
+								<a href="calculadora-js.html" class="btn btn-outline-primary">ABRIR PROJETO</a>
+						</div>
+
+			</div>
+
 			</div>
 		</div>
-		<div class="contato">
+		<div class="projetos" style="width: 40rem;">
 			<h1>Contato</h1>
 			<form>
 				<label for="nome">Nome</label><br>
@@ -83,7 +116,7 @@
 				<input type="email" name="email" placeholder="E-mail:" required><br>
 				<label for="mensagem">Sua mensagem:</label><br>
 				<textarea name="mensagem" placeholder="Mensagem" class="texto" required></textarea><br>
-				<input type="submit" name="acao" value="Enviar">
+				<input type="submit" name="acao" value="Enviar" class="btn btn-outline-primary">
 			</form>
 		</div>
 	</center>
