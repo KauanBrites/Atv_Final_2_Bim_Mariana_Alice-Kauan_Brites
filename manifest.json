@@ -10,6 +10,8 @@
 "them-color":"#0275d8",
 "orientation":"portrait",
 "description":"Site de Portifólios De Kauan & Mariana",
+"related_application":[],
+"prefer_related_application":false,
 "icons":[
   {
     "scr":"img/icon2.png",
@@ -23,6 +25,5 @@
     "type":"img/png",
     "density":"2"
   },
-      ]
-
+],
 }
