@@ -1,4 +1,4 @@
-const cashename = "album-v1.1"
+const cashename = "album-v1.2"
 const files = [
   '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/index.html',
   '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/script.js',
@@ -36,7 +36,7 @@ self.addEventListener('activate', function(evt){
 })
 self.addEventListener('fetch', function(evt){
   console.log("fetch sw");
-  evt.responseWith(
+  evt.respondWith(
     cashe.match(evt.request).then(function(res){
       return res || fetch(evt.request)
     })
