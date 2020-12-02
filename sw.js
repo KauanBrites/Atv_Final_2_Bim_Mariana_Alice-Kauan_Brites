@@ -1,4 +1,4 @@
-const cashename = "album-v1"
+const cashename = "album-v1.1"
 const files = [
   '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/index.html',
   '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/script.js',
@@ -24,7 +24,15 @@ self.addEventListener('install', function(evt){
 })
 self.addEventListener('activate', function(evt){
   console.log("activate sw");
-
+  evt.waitUntil(
+  cashes.keys().then(function(keys){
+    return Promise.all(
+      keys
+      .filter(key => key !== casheName)
+      .map(key => cashes.delete(key))
+    )
+  })
+  )
 })
 self.addEventListener('fetch', function(evt){
   console.log("fetch sw");
