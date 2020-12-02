@@ -1,0 +1,28 @@
+{
+"lang":"pt_BT",
+"dir":"ltr",
+"name": "Desafio Final",
+"short_name":"AF",
+"short_url":"https://kauanbrites.github.io/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/",
+"display":"minimal-ui",
+"scope":"/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/",
+"background-color":"#0275d8",
+"them-color":"#0275d8",
+"orientation":"portrait",
+"description":"Site de Portifólios De Kauan & Mariana",
+"icons":[
+  {
+    "scr":"img/icon2.png",
+    "sizes":"192x192",
+    "type":"img/png",
+    "density":"1"
+   },
+  {
+    "scr":"img/icon.png",
+    "sizes":"512x512",
+    "type":"img/png",
+    "density":"2"
+  },
+      ]
+
+}
