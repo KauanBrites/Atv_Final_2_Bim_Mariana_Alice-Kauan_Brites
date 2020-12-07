@@ -1,6 +1,7 @@
 const cachename = "album-v1.3"
 const files = [
   '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/',
+  '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/icon',
   '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/index.html',
   '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/script.js',
   '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/estilo.css',
