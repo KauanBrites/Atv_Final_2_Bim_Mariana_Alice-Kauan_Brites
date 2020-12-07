@@ -1,5 +1,5 @@
-if('servidorWork' in navigator){
+if('serviceWorker' in navigator){
 navigator.servidorWork.register('sw.js')
-  .then(function(){console.log('servidorWork está registrado')})
-  .cash(function(){console.log('Erro, servidorWork não está registrado')})
+  .then(function(){console.log('serviceWorker está registrado')})
+  .cash(function(){console.log('Erro, serviceWorker não está registrado')})
 }
