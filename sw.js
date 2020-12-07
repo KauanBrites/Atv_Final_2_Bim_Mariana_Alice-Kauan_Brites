@@ -1,4 +1,4 @@
-const cashename = "album-v1.2"
+const cachename = "album-v1.2"
 const files = [
   '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/index.html',
   '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/script.js',
@@ -16,20 +16,20 @@ const files = [
 
 self.addEventListener('install', function(evt){
   evt.waitUntil(
-  cashe.open(casheName).then(function(cashe){
-    console.log('colocando arquivos na cashe')
-    cashe.addAll(files)
+  caches.open(cacheName).then(function(cache){
+    console.log('colocando arquivos na cache')
+    cache.addAll(files)
   })
   )
 })
 self.addEventListener('activate', function(evt){
   console.log("activate sw");
   evt.waitUntil(
-  cashes.keys().then(function(keys){
+  caches.keys().then(function(keys){
     return Promise.all(
       keys
-      .filter(key => key !== casheName)
-      .map(key => cashes.delete(key))
+      .filter(key => key !== cacheName)
+      .map(key => caches.delete(key))
     )
   })
   )
@@ -37,7 +37,7 @@ self.addEventListener('activate', function(evt){
 self.addEventListener('fetch', function(evt){
   console.log("fetch sw");
   evt.respondWith(
-    cashe.match(evt.request).then(function(res){
+    cache.match(evt.request).then(function(res){
       return res || fetch(evt.request)
     })
   )
