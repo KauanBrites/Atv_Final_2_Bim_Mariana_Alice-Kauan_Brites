@@ -1,17 +1,18 @@
-const cachename = "album-v1.2"
+const cachename = "album-v1.3"
 const files = [
+  '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/',
   '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/index.html',
   '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/script.js',
   '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/estilo.css',
-  '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/img',
-  '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/img-scr',
-  '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/PROJETOS',
+  '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/img/',
+  '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/img-scr/',
+  '/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/PROJETOS/',
   'https://code.jquery.com/jquery-3.2.1.slim.min.js',
   'https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js',
   'https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js',
   'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css',
   'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js'
-
+  'https://code.jquery.com/jquery-3.5.1.slim.min.js'
 ]
 
 self.addEventListener('install', function(evt){
