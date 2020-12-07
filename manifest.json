@@ -3,7 +3,7 @@
 "dir":"ltr",
 "name": "Portifólios Pessoal",
 "short_name":"PP",
-"short_url":"https://kauanbrites.github.io/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/",
+"start_url":"https://kauanbrites.github.io/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/",
 "display":"minimal-ui",
 "scope":"/Atv_Final_2_Bim_Mariana_Alice-Kauan_Brites/",
 "background-color":"#0275d8",
@@ -52,7 +52,7 @@
  {
   "src": "icon/icon.png",
   "sizes": "512x512",
-  "type": "image/png"  
+  "type": "image/png"
  }
 ]
 }
